@@ -5,7 +5,7 @@ __all__ = ['Asset', 'Debt', 'AssetList', 'DebtList', 'Assets', 'Debts', 'Disclos
 asset_types = ['savings account', 'checking account', 'real estate', 'other']
 debt_types = ['credit card', 'mortgage', 'auto loan', 'other']
 
-foo = "foobar"
+foo = "foobar2"
 
 class Asset(DAObject):
     pass
