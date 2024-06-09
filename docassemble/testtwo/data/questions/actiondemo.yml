@@ -1,3 +1,4 @@
+---
 mandatory: True
 question: Actions
 subquestion: |
@@ -20,7 +21,7 @@ code: |
   answer = numerator/denominator
 ---
 question: |
-  What is the numerator?
+  What is the stinking numerator?
 subquestion: |
   ${ action_argument('foo') }
 fields:
@@ -28,7 +29,7 @@ fields:
     datatype: number
 ---
 question: |
-  What is the demoninator?
+  What is the stinking demoninator?
 subquestion: |
   The numerator is ${ numerator }.
 fields:

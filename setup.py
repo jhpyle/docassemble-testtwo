@@ -6,6 +6,7 @@ from distutils.util import convert_path
 
 standard_exclude = ('*.pyc', '*~', '.*', '*.bak', '*.swp*')
 standard_exclude_directories = ('.*', 'CVS', '_darcs', './build', './dist', 'EGG-INFO', '*.egg-info')
+
 def find_package_data(where='.', package='', exclude=standard_exclude, exclude_directories=standard_exclude_directories):
     out = {}
     stack = [(convert_path(where), '', package)]
@@ -43,9 +44,9 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.testtwo',
-      version='',
+      version='1.0.0',
       description=(''),
-      long_description='# docassemble.testone\r\n\r\naasdfasdfasdf\r\n\r\nadfsdfads\r\n\r\n## Author\r\n\r\nmaster change!\r\n\r\nJonathan Pyle, admin@admin.com\r\n\r\nThis is the latest official word from the master of the repo.\r\n\r\nThis is an even later official word.\r\n',
+      long_description='# docassemble.testone\r\nOn develop branch\r\n\r\naasdfasdfasdf\r\n\r\nadfsdfads\r\n\r\n## Author\r\n\r\nmaster change!\r\n\r\nJonathan Pyle, admin@admin.com\r\n\r\nThis is the latest official word from the master of the repo.\r\n\r\nThis is an even later official word.\r\n',
       long_description_content_type='text/markdown',
       author='Jonathan Pyle',
       author_email='admin@admin.com',
