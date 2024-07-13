@@ -46,7 +46,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.testtwo',
       version='1.0.0',
       description=(''),
-      long_description='# docassemble.testtwo\r\n\r\n## Author\r\n\r\nJonathan Pyle, admin@admin.com\r\n',
+      long_description='# docassemble.testtwo\r\n\r\n## Author\r\n\r\nJonathan Pyle, admin@admin.com\r\n\r\nThe README has changed.',
       long_description_content_type='text/markdown',
       author='Jonathan Pyle',
       author_email='admin@admin.com',
